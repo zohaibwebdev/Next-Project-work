@@ -17,6 +17,9 @@ body {
   background-color: white;
   color: #111;
 }
+.theme {
+  transition: 2s all ease;
+}
 a {
   text-decoration: none;
   color: inherit;
