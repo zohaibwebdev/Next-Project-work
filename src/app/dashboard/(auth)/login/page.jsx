@@ -4,7 +4,7 @@ import styles from "./page.module.css";
 import { signIn, useSession } from "next-auth/react";
 import Link from "next/link";
 
-const Login=(){
+const Login = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     const email = e.target[0].value;
@@ -44,7 +44,7 @@ const Login=(){
         Create new account
       </Link>
     </div>
-  )
-}
+  );
+};
 
 export default Login;
